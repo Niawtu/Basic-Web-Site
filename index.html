@@ -5,17 +5,8 @@
 <title>N'aber?</title>
 </head>
 
-<style>
-body{background-color:#bfdcae}
-hr {
-border-style:none;
-border-top-style:dotted;
-border-color:#81b214;
-border-width:5px;
-width:5%;}
-</style>
-
 <body>
+<link rel="stylesheet" href="css/style.css">
 <table cellspacing="15">
 <tr>
 <td>
@@ -24,21 +15,22 @@ width:5%;}
 <td>
 <h1>Ömer Davarcı</h1>
 <i>Hiçbir yerin hiçkimsesi.</i>
-<p>Uzun süredir <b>öğrenci</b>.Geleceğin bilgisayar mühendisi. TOBB'da okumayı planlıyor.1.5k Türk Lirası'nı nasıl harcayacağı bilinmiyor.
+<p>Uzun süredir <b>öğrenci</b>. Geleceğin <b>bilgisayar mühendisi</b>. Kısmetse <b>TOBB'da</b> eğitim görecek. Alacağı burs eline geçmeden hayaller kurduruyor. Kadrolu <b>fakir</b>. Kulaklık arıyor.
+Kulaklık fiyatlarından mütemadiyen yakınıyor.</p>
 </td>
 </tr>
 </table>
 
-
 <hr>
 
-<h3>Okuduğu Okullar<h3>
+<h3>Okuduğu Okullar</h3>
 <ul>
-	<li>İltekin İlköğretim Okulu</li>
-	<li>Namık Kemal Ortaokulu</li>
-	<li>Gazi Anadolu Lisesi <b>(3 Yıl)</b></li>
-	<li>Açı Koleji <b>(1 Yıl)</b>
+<li>İltekin İlköğretim Okulu</li>
+<li>Namık Kemal Ortaokulu</li>
+<li>Gazi Anadolu Lisesi <b>(3 Yıl)</b></li>
+<li>Açı Koleji <b>(1 Yıl)</b>
 </ul>
+ 
 <a href="CV.html">CV için</a>
 <hr>
 
@@ -58,7 +50,7 @@ width:5%;}
 
 <table cellspacing="10">
 <tr>
-<td>Skill List</td>
+<td><b>Skill List</b></td>
 </tr>
 <tr>
 <td>Bisiklet</td>
@@ -75,12 +67,12 @@ width:5%;}
 </table>
 <hr>
 
-<h3>İletişim:</h3>
+<h3><b>İletişim için:</b></h3>
 <form action="mailto:niawtuavatar@hotmail.com" method="post" enctype="text/plain">
-<label for"name">İsim:</label>
-<input type="text" id="name" name="name"><br>
+<label for"name"><b>İsim:</b></label>
+<input type="text" id="name" name="name" required placeholder="Kimsin sen?"><br>
 
-<label for="sex">Cinsiyet:</label><br>
+<label for="sex"><b>Cinsiyet:</b></label><br>
 <input type="radio" name="sex">
 <label>Ne yani, burda ayrımcılık mı yapılıyor?</label><br>
 <input type="radio" name="sex">
@@ -88,8 +80,10 @@ width:5%;}
 <input type="radio" name="sex">
 <label>Kendimi burada fişleyeceğimi mi sandın?</label><br>
 
-<label for="email">E-mail:</label>
-<input type="email" name="email"><br><br><br>
+<label for="email"><b>E-mail:</b></label>
+<input type="email" name="email" required placeholder="asılsenkimsin@gmail.com"><br>
+<label for="mesaj"><b>Mesaj:</b></label><br>
+<textarea rows="10" cols="30" id="mesaj" name="mesaj" required placeholder="Sen benim kim olduğumu biliyor musun?"></textarea><br><br>
 
 <label for="agreement"><a href="agreement.html">Anlaşmayı</a> okudum ve tüm mal varlığımı gerçekten hak eden birine vermeyi kabul ediyorum.</label>
 <input type="checkbox" name="agreement" id="agreement">
